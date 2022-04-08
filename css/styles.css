@@ -284,6 +284,9 @@ body {
 .social-links > li {
   margin-right: 10px;
 }
+.social-links > li:last-of-type {
+  margin-right: 0px;
+}
 .social-list-link {
   display: flex;
   width: 44px;
@@ -420,8 +423,10 @@ body {
   justify-content: center;
   margin-bottom: 50px;
 }
-.filter-item {
+.filter-item-list {
   margin-right: 8px;
+}
+.filter-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 162%;
@@ -491,6 +496,7 @@ body {
   display: none;
 }
 .project-card-item {
+  height: 294px;
   position: relative;
   overflow: hidden;
 }
@@ -506,7 +512,7 @@ body {
   color: var(--white-color);
   background-color: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-card:focus .overlay,
