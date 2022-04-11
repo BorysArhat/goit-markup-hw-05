@@ -37,7 +37,11 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
-
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /* details */
 .header {
   border-bottom: 1px solid #ececec;
@@ -132,6 +136,9 @@ body {
     url(../img-decor/hero-cover.jpg);
   background-color: #2f303a;
   text-align: center;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
 }
 .hero-title {
   font-weight: 900;
@@ -496,7 +503,6 @@ body {
   display: none;
 }
 .project-card-item {
-  height: 294px;
   position: relative;
   overflow: hidden;
 }
